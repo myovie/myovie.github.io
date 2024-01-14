@@ -929,9 +929,9 @@ ul.portfolio-filters li:hover {
 /*  		 16. Preloader CSS			*/
 /* -----------------------------------	*/
 
-body {
-  overflow-y: hidden;
-}
+
+
+
 #preloader {
   position: absolute;
   left: 0;
