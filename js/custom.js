@@ -18,16 +18,16 @@
 		});	
 
 		// jQuery Custom scrollbar
-		$("body").niceScroll({
-			cursorcolor: "#57BDDB",
-			cursorborderradius: "0px",
-			cursorwidth: "10px",
-			cursorminheight: 100,
-			cursorborder: "0px solid #fff",
-			zindex: 9999,
-			autohidemode: true,
-			horizrailenabled:false
-		});
+		// $("body").niceScroll({
+		// 	cursorcolor: "#57BDDB",
+		// 	cursorborderradius: "0px",
+		// 	cursorwidth: "10px",
+		// 	cursorminheight: 100,
+		// 	cursorborder: "0px solid #fff",
+		// 	zindex: 9999,
+		// 	autohidemode: true,
+		// 	horizrailenabled:false
+		// });
 
 		// jQuery Stick menu		
 		$(".navbar").sticky({topSpacing: 0});
@@ -88,15 +88,15 @@
 	 =============================================== */
 
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
-	$(function() {
-		$('.navbar a,.btn,.to-top').bind('click', function(event) {
-			var $anchor = $(this);
-			$('html').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 50
-			}, 1500, 'easeInOutExpo');
-			event.preventDefault();
-		});
-	});
+	// $(function() {
+	// 	$('.navbar a,.btn,.to-top').bind('click', function(event) {
+	// 		var $anchor = $(this);
+	// 		$('html').stop().animate({
+	// 			scrollTop: $($anchor.attr('href')).offset().top - 50
+	// 		}, 1500, 'easeInOutExpo');
+	// 		event.preventDefault();
+	// 	});
+	// });
 
 
 
